@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: "Open Sans";
+
+}
+
+.top{
+    background-color: #004175;
+    height: 50%;
+    color: hwb(0 95% 3%);
+    padding: 2%;
+    font-size: 2rem;
+    border-bottom: .10rem solid;
+    border-bottom-color: #89DEEF;
+    font-weight: bold;
+}
+
+.line2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.line3{
+    font-size: 1rem;
+    padding-left: 2%;
+}
+.dogprofile{
+
+}
+.pic{
+    width: 50%;
+    height: 20%;
+}
+.dogname{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Oswald";
+}
+.attributes li{
+    font-size: .85rem;
+    background-color: #89DEEF;
+    display: inline;
+    border-radius: 1rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.attributes{
+    list-style: none;
+}
