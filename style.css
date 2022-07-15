@@ -57,26 +57,27 @@ body{
     padding: 0;
 }
 footer{
-    display:flex;
+    
     width: 100%;
     height: 300px;
-    font-size: 3rem;
-    font;
+    font-size: 2.5rem;
+    font-family: "Oswald";
+    color: white;
     flex: 1 1 auto;
     background:  
     linear-gradient(
-        rgba(166, 169, 240, 0.45), 
-        rgba(166, 169, 240, 0.45)
+        rgba(166, 169, 240, 0.65), 
+        rgba(166, 169, 240, 0.65)
         ),
     url(starter_files/images/donate.jpg),   
     linear-gradient(
-        rgba(166, 169, 240, 0.45), 
-        rgba(166, 169, 240, 0.45)
+        rgba(166, 169, 240, 0.65), 
+        rgba(166, 169, 240, 0.65)
         ),    
     url(starter_files/images/volunteer.jpg),
     linear-gradient(
-        rgba(166, 169, 240, 0.45), 
-        rgba(166, 169, 240, 0.45)
+        rgba(166, 169, 240, 0.65), 
+        rgba(166, 169, 240, 0.65)
             ),    
     url(starter_files/images/location.png); 
     background-position:left, left, center, center, right, right;
@@ -85,14 +86,17 @@ footer{
 }
 
 .bottom-word{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
     list-style-type: none;
-    padding-top: 5rem;
+    padding-top: 7rem;
+    width: 100%;
 }
 
 .bottom-word li{
-    display: inline-block;
-    padding-left: 100px;
-    padding-right: 100px;
-    border-radius: 50px;
+    display: block;
+    list-style-type: none;
     flex: 1 1 auto;
+    margin-left: 9.5rem;
 }
